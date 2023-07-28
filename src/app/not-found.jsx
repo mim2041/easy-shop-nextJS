@@ -1,4 +1,4 @@
-// import notFoundImage from "@/assets/404.png";
+import notFoundImage from "@/assets/404.png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,9 +6,10 @@ const NotFound = () => {
   return (
     <div className="mt-10 text-center">
       <Image
-        src="{notFoundImage}"
+        src={notFoundImage}
         alt="not-found"
         width={600}
+        height={400}
         placeholder="blur"
         className="max-w-[600px] h-auto mx-auto p-2 rounded-md"
         sizes="100vw"

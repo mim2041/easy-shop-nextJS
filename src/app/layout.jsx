@@ -1,10 +1,10 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Toaster from "@/components/Toaster";
+import Providers from "@/providers";
 import classNames from "@/utils/classNames";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import Providers from "@/providers";
 
 const roboto = Roboto({
   weight: ["100", "300", "400", "500", "700", "900"],
